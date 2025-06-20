@@ -151,17 +151,21 @@ const Chatbot = () => {
       <Button
         onClick={() => setIsOpen(true)}
         className={cn(
-          "fixed bottom-6 right-6 h-14 w-14 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-[9999]",
-          "olive-gradient text-white",
+          "fixed bottom-6 right-6 h-14 w-14 rounded-full shadow-2xl transition-all duration-300 hover:scale-110",
+          "olive-gradient text-white border-2 border-white/20",
           isOpen && "opacity-0 pointer-events-none",
         )}
+        style={{ zIndex: 10000 }}
       >
         <MessageCircle className="h-6 w-6" />
       </Button>
 
       {/* Chat Window */}
       {isOpen && (
-        <Card className="fixed bottom-6 right-6 w-80 h-96 shadow-xl z-[9999] glass-effect">
+        <Card
+          className="fixed bottom-6 right-6 w-80 h-96 shadow-2xl glass-effect border-2 border-white/20"
+          style={{ zIndex: 10000 }}
+        >
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2 olive-gradient text-white rounded-t-lg">
             <CardTitle className="text-sm font-medium">
               Chat with Faith's AI
