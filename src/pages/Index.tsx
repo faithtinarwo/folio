@@ -41,31 +41,44 @@ const Index = () => {
 
   const projects = [
     {
-      title: "FinTech Mobile App",
+      title: "SaaS Dashboard Redesign",
       description:
-        "Complete UX redesign and React Native development for a mobile banking application, increasing user engagement by 40%.",
+        "Complete UX/UI redesign for a B2B analytics platform, improving user satisfaction by 60% and reducing onboarding time by 45%.",
       image: "/api/placeholder/400/300",
-      tags: ["UX Design", "React Native", "Figma", "User Research"],
+      tags: ["UX Design", "UI Design", "Figma", "User Research", "Prototyping"],
       link: "#",
       github: "#",
+      type: "design",
     },
     {
-      title: "E-commerce Platform",
+      title: "E-commerce React App",
       description:
-        "Full-stack e-commerce solution with modern React frontend and Node.js backend, boosting conversions by 25%.",
+        "Full-stack e-commerce platform built with React, TypeScript, and Node.js, featuring real-time inventory and payment processing.",
       image: "/api/placeholder/400/300",
-      tags: ["React", "Node.js", "UI/UX", "TypeScript"],
+      tags: ["React", "TypeScript", "Node.js", "MongoDB", "Stripe API"],
       link: "#",
       github: "#",
+      type: "development",
     },
     {
-      title: "Healthcare Dashboard",
+      title: "Mobile App Design System",
       description:
-        "Comprehensive dashboard for medical professionals with complex data visualization and workflow optimization.",
+        "Comprehensive design system and component library for a fintech mobile app, ensuring consistency across 20+ screens.",
       image: "/api/placeholder/400/300",
-      tags: ["Vue.js", "D3.js", "UX Research", "Accessibility"],
+      tags: ["Design System", "Figma", "Component Library", "Mobile Design"],
       link: "#",
       github: "#",
+      type: "design",
+    },
+    {
+      title: "Real-time Chat Platform",
+      description:
+        "WebSocket-based chat application with React frontend and Express backend, supporting 1000+ concurrent users.",
+      image: "/api/placeholder/400/300",
+      tags: ["React", "WebSocket", "Express.js", "Redis", "Socket.io"],
+      link: "#",
+      github: "#",
+      type: "development",
     },
   ];
 
