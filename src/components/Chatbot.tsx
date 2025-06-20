@@ -152,7 +152,7 @@ const Chatbot = () => {
         onClick={() => setIsOpen(true)}
         className={cn(
           "fixed bottom-6 right-6 h-14 w-14 rounded-full shadow-2xl transition-all duration-300 hover:scale-110",
-          "olive-gradient text-white border-2 border-white/20",
+          "olive-gradient text-white border-2 border-white/20 animate-pulse hover:animate-none",
           isOpen && "opacity-0 pointer-events-none",
         )}
         style={{ zIndex: 10000 }}
