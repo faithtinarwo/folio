@@ -302,8 +302,8 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
+          <div className="grid lg:grid-cols-2 gap-12 items-start lg:items-center">
+            <div className="space-y-6 lg:pr-8">
               <p className="text-lg text-olive-700 leading-relaxed">
                 I'm a multidisciplinary designer and developer with over 5 years
                 of experience creating digital products that users love. My
@@ -331,8 +331,8 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="relative">
-              <Card className="glass-effect">
+            <div className="lg:pl-8">
+              <Card className="glass-effect h-full">
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold text-olive-800 mb-6">
                     Quick Facts
