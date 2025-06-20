@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Link } from "react-router-dom";
+import Navbar from "@/components/Navbar";
 import Chatbot from "@/components/Chatbot";
 import {
   ArrowRight,
@@ -22,14 +23,11 @@ import {
   Heart,
   Star,
   ChevronDown,
-  Menu,
-  X,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState("hero");
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [currentRole, setCurrentRole] = useState(0);
 
   const roles = ["UX Designer", "Software Developer"];
@@ -151,115 +149,12 @@ const Index = () => {
 
   const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
-    setIsMenuOpen(false);
   };
-
-  const navigation = [
-    { name: "Home", id: "hero", path: "/" },
-    { name: "About", id: "about", path: "/about" },
-    { name: "Skills", id: "skills", path: "/skills" },
-    { name: "Projects", id: "projects", path: "/projects" },
-    { name: "Testimonials", id: "testimonials", path: null },
-    { name: "Contact", id: "contact", path: "/contact" },
-  ];
 
   return (
     <div className="min-h-screen gradient-bg">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full z-40 glass-effect transition-all duration-300">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="text-xl font-bold gradient-text">Faith Tinarwo</div>
-
-            {/* Desktop Navigation */}
-            <div className="hidden md:flex space-x-8">
-              {navigation.map((item) =>
-                item.path ? (
-                  <Link
-                    key={item.id}
-                    to={item.path}
-                    className={cn(
-                      "text-sm font-medium transition-colors hover:text-olive-600",
-                      activeSection === item.id
-                        ? "text-olive-600"
-                        : "text-olive-800",
-                    )}
-                  >
-                    {item.name}
-                  </Link>
-                ) : (
-                  <button
-                    key={item.id}
-                    onClick={() => scrollToSection(item.id)}
-                    className={cn(
-                      "text-sm font-medium transition-colors hover:text-olive-600",
-                      activeSection === item.id
-                        ? "text-olive-600"
-                        : "text-olive-800",
-                    )}
-                  >
-                    {item.name}
-                  </button>
-                ),
-              )}
-            </div>
-
-            {/* Mobile menu button */}
-            <div className="md:hidden">
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="text-olive-800"
-              >
-                {isMenuOpen ? (
-                  <X className="h-5 w-5" />
-                ) : (
-                  <Menu className="h-5 w-5" />
-                )}
-              </Button>
-            </div>
-          </div>
-        </div>
-
-        {/* Mobile Navigation */}
-        {isMenuOpen && (
-          <div className="md:hidden glass-effect border-t border-white/20">
-            <div className="px-2 pt-2 pb-3 space-y-1">
-              {navigation.map((item) =>
-                item.path ? (
-                  <Link
-                    key={item.id}
-                    to={item.path}
-                    onClick={() => setIsMenuOpen(false)}
-                    className={cn(
-                      "block w-full text-left px-3 py-2 text-sm font-medium transition-colors hover:bg-olive-100 rounded-md",
-                      activeSection === item.id
-                        ? "text-olive-600 bg-olive-50"
-                        : "text-olive-800",
-                    )}
-                  >
-                    {item.name}
-                  </Link>
-                ) : (
-                  <button
-                    key={item.id}
-                    onClick={() => scrollToSection(item.id)}
-                    className={cn(
-                      "block w-full text-left px-3 py-2 text-sm font-medium transition-colors hover:bg-olive-100 rounded-md",
-                      activeSection === item.id
-                        ? "text-olive-600 bg-olive-50"
-                        : "text-olive-800",
-                    )}
-                  >
-                    {item.name}
-                  </button>
-                ),
-              )}
-            </div>
-          </div>
-        )}
-      </nav>
+      <Navbar />
 
       {/* Hero Section */}
       <section

@@ -2,16 +2,9 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import {
-  ArrowLeft,
-  Palette,
-  Code,
-  Users,
-  Lightbulb,
-  Award,
-  BookOpen,
-} from "lucide-react";
+import { Palette, Code, Users, Lightbulb, Award, BookOpen } from "lucide-react";
 import { Link } from "react-router-dom";
+import Navbar from "@/components/Navbar";
 import Chatbot from "@/components/Chatbot";
 
 const Skills = () => {
@@ -95,19 +88,8 @@ const Skills = () => {
 
   return (
     <div className="min-h-screen gradient-bg">
-      {/* Header */}
-      <header className="sticky top-0 z-40 glass-effect">
-        <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-          <Link
-            to="/"
-            className="flex items-center gap-2 text-olive-600 hover:text-olive-700"
-          >
-            <ArrowLeft className="h-5 w-5" />
-            <span className="font-medium">Back to Home</span>
-          </Link>
-          <div className="text-xl font-bold gradient-text">Faith Tinarwo</div>
-        </div>
-      </header>
+      {/* Navigation */}
+      <Navbar />
 
       {/* Skills Content */}
       <main className="max-w-6xl mx-auto px-4 py-16">
