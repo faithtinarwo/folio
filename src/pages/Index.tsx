@@ -29,6 +29,9 @@ import { cn } from "@/lib/utils";
 const Index = () => {
   const [activeSection, setActiveSection] = useState("hero");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [currentRole, setCurrentRole] = useState(0);
+
+  const roles = ["UX Designer", "Software Developer"];
 
   const skills = [
     { name: "UX/UI Design", level: 95, icon: Palette },
@@ -137,6 +140,14 @@ const Index = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentRole((prev) => (prev + 1) % roles.length);
+    }, 2000);
+
+    return () => clearInterval(interval);
+  }, [roles.length]);
+
   const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
     setIsMenuOpen(false);
@@ -232,7 +243,9 @@ const Index = () => {
                 <span className="gradient-text">Faith Tinarwo</span>
               </h1>
               <p className="text-xl md:text-2xl text-olive-700 font-medium">
-                UX Designer & Software Developer
+                <span className="inline-block transition-all duration-500 ease-in-out">
+                  {roles[currentRole]}
+                </span>
               </p>
               <p className="text-lg text-olive-600 max-w-lg leading-relaxed">
                 I craft beautiful, user-centered digital experiences that bridge
