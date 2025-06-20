@@ -295,14 +295,19 @@ const Index = () => {
           </div>
 
           <div className="relative">
-            <div className="w-80 h-80 mx-auto rounded-full olive-gradient p-1 animate-float">
-              <div className="w-full h-full rounded-full bg-cream-50 flex items-center justify-center">
-                <div className="w-72 h-72 rounded-full bg-gradient-to-br from-olive-100 to-cream-200 flex items-center justify-center text-olive-700">
-                  <div className="text-center">
-                    <Palette className="h-16 w-16 mx-auto mb-4" />
-                    <p className="text-lg font-semibold">
-                      Design × Development
-                    </p>
+            <div className="relative w-80 h-80 mx-auto rounded-2xl overflow-hidden shadow-2xl animate-float">
+              <img
+                src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg"
+                alt="Professional workspace with hands coding on laptop"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-olive-900/40 via-transparent to-transparent"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-center">
+                <div className="glass-effect rounded-lg p-3">
+                  <div className="flex items-center justify-center gap-2 text-white">
+                    <Code className="h-5 w-5" />
+                    <span className="font-semibold">Design × Development</span>
+                    <Palette className="h-5 w-5" />
                   </div>
                 </div>
               </div>
