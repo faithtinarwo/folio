@@ -78,16 +78,7 @@ const Index = () => {
       category: "Mobile Design",
       year: "2025",
     },
-    {
-      title: "Real-time Chat Platform",
-      description:
-        "WebSocket-based chat application with React frontend and Express backend, supporting 1000+ concurrent users.",
-      image: "/api/placeholder/400/300",
-      tags: ["React", "WebSocket", "Express.js", "Redis", "Socket.io"],
-      link: "#",
-      github: "#",
-      type: "development",
-    },
+    
   ];
 
   const testimonials = [
