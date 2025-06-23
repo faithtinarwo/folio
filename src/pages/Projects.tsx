@@ -12,78 +12,78 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "SaaS Dashboard Redesign",
+      title: "School Website Design and Development",
       description:
-        "Complete UX/UI redesign for a B2B analytics platform, improving user satisfaction by 60% and reducing onboarding time by 45%. Conducted user interviews, created wireframes, and designed a comprehensive design system.",
-      image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg",
+        "Designed and developed a user-friendly school website from the ground up. Conducted stakeholder interviews to understand user needs, created wireframes and high-fidelity prototypes, and implemented a responsive design system to ensure accessibility across all devices.",
+      image: "/images/school.png",
       tags: ["UX Design", "UI Design", "Figma", "User Research", "Prototyping"],
-      link: "#",
-      github: "#",
+      link: "https://new-day-website.vercel.app/",
+      github: "https://github.com/faithtinarwo/New-Day-website",
       type: "design",
-      category: "Web Design",
-      year: "2024",
+      category: "Web Design & Development",
+      year: "2025",
     },
     {
-      title: "E-commerce React App",
+      title: "NextFlex Cybersecurity Website",
       description:
-        "Full-stack e-commerce platform built with React, TypeScript, and Node.js, featuring real-time inventory management, secure payment processing with Stripe, and responsive design for optimal mobile experience.",
-      image: "https://images.pexels.com/photos/34577/pexels-photo.jpg",
-      tags: ["React", "TypeScript", "Node.js", "MongoDB", "Stripe API"],
-      link: "#",
-      github: "#",
+        "Redesigned and redeveloped a cybersecurity website to clearly communicate services and build user trust. Focused on creating a clean, professional interface that highlights threat protection solutions, incident response, and security awareness resources, while ensuring a responsive and accessible user experience.",
+      image: "/images/cyber.png",
+      tags: ["React", "TypeScript", "Node.js", "Html", "Stripe API"],
+      link: "https://nextflex-cyber-shield.vercel.app/",
+      github: "https://github.com/faithtinarwo/nextflex-cyber-shield",
       type: "development",
       category: "Web Development",
       year: "2024",
     },
     {
-      title: "Mobile App Design System",
+      title: "TradeWise Mobile App ",
       description:
-        "Comprehensive design system and component library for a fintech mobile app, ensuring consistency across 20+ screens. Created reusable components, style guides, and interaction patterns.",
-      image: "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg",
+        "Empowering Small Traders Through Voice-First AI Solutions",
+      image: "images/tradewise.png",
       tags: ["Design System", "Figma", "Component Library", "Mobile Design"],
-      link: "#",
-      github: "#",
+      link: "https://tradewise-y2o4.onrender.com/",
+      github: "https://github.com/faithtinarwo/coding_vibe_hackathon",
       type: "design",
       category: "Mobile Design",
-      year: "2023",
+      year: "2025",
     },
     {
-      title: "Real-time Chat Platform",
+      title: "Agentfree Properties",
       description:
-        "WebSocket-based chat application with React frontend and Express backend, supporting 1000+ concurrent users. Features include real-time messaging, file sharing, and user presence indicators.",
+        "Connecting Property Owners with Tenants Directly.",
       image:
-        "https://images.pexels.com/photos/5926382/pexels-photo-5926382.jpeg",
-      tags: ["React", "WebSocket", "Express.js", "Redis", "Socket.io"],
-      link: "#",
+        "images/agentfree.png",
+      tags: ["Figma",],
+      link: "https://www.notion.so/faithuxdesigner/Agentfree-Properties-Connecting-Property-Owners-with-Tenants-Directly-project-200d0cdff58c80d9a1f7e98564ed6316",
       github: "#",
-      type: "development",
-      category: "Web Development",
+      type: "design",
+      category: "Product Design",
       year: "2023",
     },
     {
-      title: "Healthcare Dashboard UI",
+      title: "Telemedicine App Design",
       description:
-        "User interface design for a medical dashboard helping doctors track patient data and appointments. Focused on accessibility, clear data visualization, and efficient workflows for healthcare professionals.",
+        "Telemedicine is a digital healthcare platform aimed at providing patients with a seamless way to connect with healthcare professionals.",
       image:
         "https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg",
       tags: ["UI Design", "Healthcare", "Data Visualization", "Accessibility"],
-      link: "#",
+      link: "https://telemedicine-app-2ceg.onrender.com/",
       github: "#",
       type: "design",
-      category: "Web Design",
-      year: "2023",
+      category: "Web Design & Development",
+      year: "2024",
     },
     {
-      title: "Task Management API",
+      title: "Gaseous Solutions",
       description:
-        "RESTful API built with Node.js and Express for a task management application. Features user authentication, real-time updates, file uploads, and comprehensive testing suite with 95% code coverage.",
-      image: "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg",
-      tags: ["Node.js", "Express.js", "MongoDB", "JWT", "REST API"],
-      link: "#",
-      github: "#",
+        "Gaseous Solutions, a growing LP gas supplier in Endicott Springs, South Africa, underwent a complete digital transformation to modernize their business operations and expand their market reach.",
+      image: "images/gaseous.png",
+      tags: ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+      link: "https://gaseoussolutions.onrender.com",
+      github: "https://github.com/faithtinarwo/gaseoussolutions",
       type: "development",
-      category: "Backend Development",
-      year: "2022",
+      category: "Website Development",
+      year: "2024",
     },
   ];
 
@@ -232,19 +232,19 @@ const Projects = () => {
         <div className="grid md:grid-cols-4 gap-6 mb-16">
           <Card className="glass-effect text-center">
             <CardContent className="p-6">
-              <div className="text-3xl font-bold gradient-text mb-2">50+</div>
+              <div className="text-3xl font-bold gradient-text mb-2">20+</div>
               <p className="text-olive-600">Projects Completed</p>
             </CardContent>
           </Card>
           <Card className="glass-effect text-center">
             <CardContent className="p-6">
-              <div className="text-3xl font-bold gradient-text mb-2">25+</div>
+              <div className="text-3xl font-bold gradient-text mb-2">20+</div>
               <p className="text-olive-600">Happy Clients</p>
             </CardContent>
           </Card>
           <Card className="glass-effect text-center">
             <CardContent className="p-6">
-              <div className="text-3xl font-bold gradient-text mb-2">5+</div>
+              <div className="text-3xl font-bold gradient-text mb-2">3+</div>
               <p className="text-olive-600">Years Experience</p>
             </CardContent>
           </Card>

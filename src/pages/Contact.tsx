@@ -45,14 +45,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "faith.tinarwo@example.com",
-      link: "mailto:faith.tinarwo@example.com",
+      value: "fayyic@gmail.com",
+      link: "mailto:fayyic@gmail.com",
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567",
+      value: "+27 717 944 157",
+      link: "tel:+27717944157",
     },
     {
       icon: Linkedin,
@@ -69,13 +69,13 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Johannesburg, South Africa",
       link: null,
     },
     {
       icon: Clock,
       title: "Timezone",
-      value: "PST (UTC-8)",
+      value: "South Africa Standard Time (SAST)",
       link: null,
     },
   ];

@@ -34,7 +34,7 @@ const Index = () => {
 
   const skills = [
     { name: "UX/UI Design", level: 95, icon: Palette },
-    { name: "React & TypeScript", level: 90, icon: Code },
+    { name: "Python", level: 90, icon: Code },
     { name: "User Research", level: 88, icon: Users },
     { name: "Design Systems", level: 92, icon: Lightbulb },
     { name: "Figma & Adobe Suite", level: 95, icon: Award },
@@ -43,34 +43,40 @@ const Index = () => {
 
   const projects = [
     {
-      title: "SaaS Dashboard Redesign",
+      title: "School Website Design and Development",
       description:
-        "Complete UX/UI redesign for a B2B analytics platform, improving user satisfaction by 60% and reducing onboarding time by 45%.",
-      image: "/api/placeholder/400/300",
+        "Designed and developed a user-friendly school website from the ground up. Conducted stakeholder interviews to understand user needs, created wireframes and high-fidelity prototypes, and implemented a responsive design system to ensure accessibility across all devices.",
+      image: "/images/school.png",
       tags: ["UX Design", "UI Design", "Figma", "User Research", "Prototyping"],
-      link: "#",
-      github: "#",
+      link: "https://new-day-website.vercel.app/",
+      github: "https://github.com/faithtinarwo/New-Day-website",
       type: "design",
+      category: "Web Design & Development",
+      year: "2025",
     },
     {
-      title: "E-commerce React App",
+      title: "NextFlex Cybersecurity Website",
       description:
-        "Full-stack e-commerce platform built with React, TypeScript, and Node.js, featuring real-time inventory and payment processing.",
-      image: "/api/placeholder/400/300",
-      tags: ["React", "TypeScript", "Node.js", "MongoDB", "Stripe API"],
-      link: "#",
-      github: "#",
+        "Redesigned and redeveloped a cybersecurity website to clearly communicate services and build user trust. Focused on creating a clean, professional interface that highlights threat protection solutions, incident response, and security awareness resources, while ensuring a responsive and accessible user experience.",
+      image: "/images/cyber.png",
+      tags: ["React", "TypeScript", "Node.js", "Html", "Stripe API"],
+      link: "https://nextflex-cyber-shield.vercel.app/",
+      github: "https://github.com/faithtinarwo/nextflex-cyber-shield",
       type: "development",
+      category: "Web Development",
+      year: "2024",
     },
     {
-      title: "Mobile App Design System",
+      title: "TradeWise Mobile App ",
       description:
-        "Comprehensive design system and component library for a fintech mobile app, ensuring consistency across 20+ screens.",
-      image: "/api/placeholder/400/300",
+        "Empowering Small Traders Through Voice-First AI Solutions",
+      image: "images/tradewise.png",
       tags: ["Design System", "Figma", "Component Library", "Mobile Design"],
-      link: "#",
-      github: "#",
+      link: "https://tradewise-y2o4.onrender.com/",
+      github: "https://github.com/faithtinarwo/coding_vibe_hackathon",
       type: "design",
+      category: "Mobile Design",
+      year: "2025",
     },
     {
       title: "Real-time Chat Platform",
@@ -86,22 +92,22 @@ const Index = () => {
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "Product Manager at TechCorp",
+      name: "Joy Murerwa",
+      role: "Amdinistrator at Gaseous Solutions",
       content:
         "Faith's ability to bridge design and development is exceptional. She delivered a product that exceeded all our expectations.",
       rating: 5,
     },
     {
-      name: "Michael Chen",
-      role: "CTO at StartupXYZ",
+      name: "Natasha",
+      role: "Principal at New Day School",
       content:
         "Working with Faith was a game-changer. Her UX insights and technical skills helped us build something truly innovative.",
       rating: 5,
     },
     {
-      name: "Emily Rodriguez",
-      role: "Design Director at CreativeAgency",
+      name: "Mike",
+      role: "Cybersecurity Expert at NextFlex",
       content:
         "Faith brings a unique perspective that combines beautiful design with practical implementation. Absolutely brilliant!",
       rating: 5,
@@ -190,31 +196,32 @@ const Index = () => {
                   View My Work <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-olive-600 text-olive-600 hover:bg-olive-50"
-              >
-                <Download className="mr-2 h-4 w-4" />
-                Download CV
-              </Button>
+              <a href="/Faith-CV.pdf" download></a>
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="border-olive-600 text-olive-600 hover:bg-olive-50"
+                  >
+                    <Download className="mr-2 h-4 w-4" />
+                    Download CV
+                  </Button>
             </div>
 
             <div className="flex items-center space-x-6">
               <a
-                href="#"
+                href="https://github.com/faithtinarwo"
                 className="text-olive-600 hover:text-olive-700 transition-colors"
               >
                 <Github className="h-6 w-6" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/faith-tinarwo-5abaa1327/"
                 className="text-olive-600 hover:text-olive-700 transition-colors"
               >
                 <Linkedin className="h-6 w-6" />
               </a>
               <a
-                href="#"
+                href="fayyic@gmail.com"
                 className="text-olive-600 hover:text-olive-700 transition-colors"
               >
                 <Mail className="h-6 w-6" />
@@ -234,8 +241,8 @@ const Index = () => {
                 <div className="glass-effect rounded-lg p-3">
                   <div className="flex items-center justify-center gap-2 text-white">
                     <Code className="h-5 w-5" />
-                    <span className="font-semibold">Design × Development</span>
-                    <Palette className="h-5 w-5" />
+                    <span className="font-bold">Design × Development</span>
+                    <Palette className="h-8 w-8" />
                   </div>
                 </div>
               </div>
@@ -264,10 +271,10 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-start lg:items-center">
             <div className="space-y-6 lg:pr-8">
               <p className="text-lg text-olive-700 leading-relaxed">
-                I'm a multidisciplinary designer and developer with over 5 years
-                of experience creating digital products that users love. My
-                unique background allows me to understand both the creative and
-                technical aspects of product development.
+                I'm a multidisciplinary designer and developer with 3+ years of experience 
+                crafting digital products that balance form and function. 
+                With a background in both design and development, 
+                I bridge the gap between creativity and code to build user-centered solutions.
               </p>
               <p className="text-lg text-olive-700 leading-relaxed">
                 I believe great design should be accessible, functional, and
@@ -279,12 +286,12 @@ const Index = () => {
               <div className="grid sm:grid-cols-2 gap-6 mt-8">
                 <div className="text-center p-6 rounded-lg glass-effect">
                   <Award className="h-8 w-8 text-olive-600 mx-auto mb-2" />
-                  <h3 className="font-semibold text-olive-800">5+ Years</h3>
+                  <h3 className="font-semibold text-olive-800">3+ Years</h3>
                   <p className="text-olive-600">Experience</p>
                 </div>
                 <div className="text-center p-6 rounded-lg glass-effect">
                   <Heart className="h-8 w-8 text-olive-600 mx-auto mb-2" />
-                  <h3 className="font-semibold text-olive-800">50+ Projects</h3>
+                  <h3 className="font-semibold text-olive-800">20+ Projects</h3>
                   <p className="text-olive-600">Completed</p>
                 </div>
               </div>
@@ -300,25 +307,25 @@ const Index = () => {
                     <div className="flex items-center gap-3">
                       <BookOpen className="h-5 w-5 text-olive-600" />
                       <span className="text-olive-700">
-                        BS in Computer Science (HCI Focus)
+                        Associate Degree in Computer Science (UoPeople)
                       </span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Award className="h-5 w-5 text-olive-600" />
                       <span className="text-olive-700">
-                        Certified UX Designer
+                        Certified UX Designer (Uxcel)
                       </span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Code className="h-5 w-5 text-olive-600" />
                       <span className="text-olive-700">
-                        Full-Stack Developer
+                        Software Developer (Power Learn Projects)
                       </span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Users className="h-5 w-5 text-olive-600" />
                       <span className="text-olive-700">
-                        User Research Enthusiast
+                        User Experience Enthusiast
                       </span>
                     </div>
                   </div>
@@ -500,7 +507,7 @@ const Index = () => {
               <CardContent className="p-6 text-center">
                 <Mail className="h-8 w-8 text-olive-600 mx-auto mb-4" />
                 <h3 className="font-semibold text-olive-800 mb-2">Email</h3>
-                <p className="text-olive-600">faith.tinarwo@example.com</p>
+                <p className="text-olive-600">fayyic@gmail.com</p>
               </CardContent>
             </Card>
 
@@ -508,7 +515,7 @@ const Index = () => {
               <CardContent className="p-6 text-center">
                 <Phone className="h-8 w-8 text-olive-600 mx-auto mb-4" />
                 <h3 className="font-semibold text-olive-800 mb-2">Phone</h3>
-                <p className="text-olive-600">+1 (555) 123-4567</p>
+                <p className="text-olive-600">+27 717 944 157</p>
               </CardContent>
             </Card>
 
@@ -541,13 +548,13 @@ const Index = () => {
           </p>
           <div className="flex items-center space-x-6 mt-4 md:mt-0">
             <a
-              href="#"
+              href="https://github.com/faithtinarwo"
               className="text-olive-600 hover:text-olive-700 transition-colors"
             >
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/faith-tinarwo-5abaa1327/"
               className="text-olive-600 hover:text-olive-700 transition-colors"
             >
               <Linkedin className="h-5 w-5" />

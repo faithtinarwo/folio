@@ -26,35 +26,30 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-start lg:items-center mb-20">
           <div className="space-y-6 lg:pr-8">
             <p className="text-lg text-olive-700 leading-relaxed">
-              I'm a multidisciplinary designer and developer with over 5 years
-              of experience creating digital products that users love. My unique
-              background allows me to understand both the creative and technical
-              aspects of product development.
+              I'm a multidisciplinary designer and developer with 3+ years of experience crafting digital products that balance form and function. 
+              With a background in both design and development, 
+              I bridge the gap between creativity and code to build user-centered solutions.
             </p>
             <p className="text-lg text-olive-700 leading-relaxed">
-              I believe great design should be accessible, functional, and
-              beautiful. Whether I'm conducting user research, designing
-              interfaces, or writing code, I always keep the end user at the
-              center of my decision-making process.
+              From research to interface design to implementation, 
+              I focus on making digital experiences accessible, intuitive, and beautiful.
             </p>
             <p className="text-lg text-olive-700 leading-relaxed">
-              My journey started with a Computer Science degree focused on
-              Human-Computer Interaction, where I discovered my passion for
-              bridging the gap between technical possibilities and human needs.
-              Since then, I've worked with startups and established companies,
-              helping them create products that not only function well but also
-              delight their users.
+                I'm currently studying Computer Science with a focus on Human-Computer Interaction 
+                and hold a UX Design certification from Uxcel. 
+                I help teams build products that are both functional and 
+                user-friendly by bridging design and development.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6 mt-8">
               <div className="text-center p-6 rounded-lg glass-effect">
                 <Award className="h-8 w-8 text-olive-600 mx-auto mb-2" />
-                <h3 className="font-semibold text-olive-800">5+ Years</h3>
+                <h3 className="font-semibold text-olive-800">3+ Years</h3>
                 <p className="text-olive-600">Experience</p>
               </div>
               <div className="text-center p-6 rounded-lg glass-effect">
                 <Heart className="h-8 w-8 text-olive-600 mx-auto mb-2" />
-                <h3 className="font-semibold text-olive-800">50+ Projects</h3>
+                <h3 className="font-semibold text-olive-800">20+ Projects</h3>
                 <p className="text-olive-600">Completed</p>
               </div>
             </div>
@@ -70,23 +65,23 @@ const About = () => {
                   <div className="flex items-center gap-3">
                     <BookOpen className="h-5 w-5 text-olive-600" />
                     <span className="text-olive-700">
-                      BS in Computer Science (HCI Focus)
+                      Associate Degree in Computer Science (UoPeople)
                     </span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Award className="h-5 w-5 text-olive-600" />
                     <span className="text-olive-700">
-                      Certified UX Designer
+                      Certified UX Designer (Uxcel)
                     </span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Code className="h-5 w-5 text-olive-600" />
-                    <span className="text-olive-700">Full-Stack Developer</span>
+                    <span className="text-olive-700">Software Developer</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Users className="h-5 w-5 text-olive-600" />
                     <span className="text-olive-700">
-                      User Research Enthusiast
+                      User Experience Enthusiast
                     </span>
                   </div>
                 </div>
