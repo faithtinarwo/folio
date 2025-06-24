@@ -37,7 +37,7 @@ const Index = () => {
     { name: "Python", level: 90, icon: Code },
     { name: "User Research", level: 88, icon: Users },
     { name: "Design Systems", level: 92, icon: Lightbulb },
-    { name: "Figma & Adobe Suite", level: 95, icon: Award },
+    { name: "Figma & Adobe XD", level: 95, icon: Award },
     { name: "Frontend Development", level: 87, icon: Code },
   ];
 
@@ -84,7 +84,7 @@ const Index = () => {
   const testimonials = [
     {
       name: "Joy Murerwa",
-      role: "Amdinistrator at Gaseous Solutions",
+      role: "Administrator at Gaseous Solutions",
       content:
         "Faith's ability to bridge design and development is exceptional. She delivered a product that exceeded all our expectations.",
       rating: 5,
@@ -221,16 +221,16 @@ const Index = () => {
           </div>
 
           <div className="relative">
-            <div className="relative w-80 h-80 mx-auto rounded-2xl overflow-hidden shadow-2xl animate-float">
+            <div className="relative w-100 h-100 mx-auto rounded-2xl overflow-hidden shadow-2xl animate-float">
               <img
-                src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg"
+                src="/images/hero.jpg"
                 alt="Professional workspace with hands coding on laptop"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-olive-900/40 via-transparent to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4 text-center">
                 <div className="glass-effect rounded-lg p-3">
-                  <div className="flex items-center justify-center gap-2 text-white">
+                  <div className="flex items-center justify-center gap-2 text-olive-800">
                     <Code className="h-5 w-5" />
                     <span className="font-bold">Design × Development</span>
                     <Palette className="h-8 w-8" />
@@ -262,15 +262,13 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-start lg:items-center">
             <div className="space-y-6 lg:pr-8">
               <p className="text-lg text-olive-700 leading-relaxed">
-                I'm a multidisciplinary designer and developer with 3+ years of experience 
-                crafting digital products that balance form and function. 
-                With a background in both design and development, 
-                I bridge the gap between creativity and code to build user-centered solutions.
+                I'm Faith Tinarwo, a UX Designer and Software Developer based in Johannesburg, South Africa. 
+                My journey blends a passion for intuitive design with hands-on coding, allowing me 
+                to deliver seamless digital products from concept to launch.
               </p>
               <p className="text-lg text-olive-700 leading-relaxed">
                 I believe great design should be accessible, functional, and
-                beautiful. Whether I'm conducting user research, designing
-                interfaces, or writing code, I always keep the end user at the
+                beautiful. I always keep the end user at the
                 center of my decision-making process.
               </p>
 
