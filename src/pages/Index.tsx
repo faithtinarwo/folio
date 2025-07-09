@@ -169,12 +169,12 @@ const Index = () => {
                 <br />
                 <span className="gradient-text">Faith Tinarwo</span>
               </h1>
-              <p className="text-xl md:text-2xl text-olive-700 font-medium">
-                <span className="inline-block transition-all duration-500 ease-in-out">
+              <p className="text-xl md:text-2xl text-gray-700 font-medium">
+                <span className="inline-block transition-all duration-500 ease-in-out gradient-text">
                   {roles[currentRole]}
                 </span>
               </p>
-              <p className="text-lg text-olive-600 max-w-lg leading-relaxed">
+              <p className="text-lg text-gray-600 max-w-lg leading-relaxed">
                 I craft beautiful, user-centered digital experiences that bridge
                 the gap between design and development. Let's build something
                 amazing together.
@@ -203,19 +203,19 @@ const Index = () => {
             <div className="flex items-center space-x-6">
               <a
                 href="#"
-                className="text-olive-600 hover:text-olive-700 transition-colors"
+                className="text-gray-600 hover:text-olive-600 transition-colors"
               >
                 <Github className="h-6 w-6" />
               </a>
               <a
                 href="#"
-                className="text-olive-600 hover:text-olive-700 transition-colors"
+                className="text-gray-600 hover:text-olive-600 transition-colors"
               >
                 <Linkedin className="h-6 w-6" />
               </a>
               <a
                 href="#"
-                className="text-olive-600 hover:text-olive-700 transition-colors"
+                className="text-gray-600 hover:text-olive-600 transition-colors"
               >
                 <Mail className="h-6 w-6" />
               </a>
@@ -255,7 +255,7 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">
               About Me
             </h2>
-            <p className="text-xl text-olive-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Passionate about creating digital experiences that make a
               difference
             </p>
@@ -263,17 +263,27 @@ const Index = () => {
 
           <div className="grid lg:grid-cols-2 gap-12 items-start lg:items-center">
             <div className="space-y-6 lg:pr-8">
-              <p className="text-lg text-olive-700 leading-relaxed">
-                I'm a multidisciplinary designer and developer with over 5 years
-                of experience creating digital products that users love. My
-                unique background allows me to understand both the creative and
-                technical aspects of product development.
+              <p className="text-lg text-gray-700 leading-relaxed">
+                I'm a multidisciplinary{" "}
+                <span className="text-olive-600 font-semibold">
+                  designer and developer
+                </span>{" "}
+                with over 5 years of experience creating digital products that
+                users love. My unique background allows me to understand both
+                the creative and technical aspects of product development.
               </p>
-              <p className="text-lg text-olive-700 leading-relaxed">
-                I believe great design should be accessible, functional, and
-                beautiful. Whether I'm conducting user research, designing
-                interfaces, or writing code, I always keep the end user at the
-                center of my decision-making process.
+              <p className="text-lg text-gray-700 leading-relaxed">
+                I believe great{" "}
+                <span className="text-olive-600 font-semibold">design</span>{" "}
+                should be accessible, functional, and beautiful. Whether I'm
+                conducting{" "}
+                <span className="text-olive-600 font-semibold">
+                  user research
+                </span>
+                , designing interfaces, or writing{" "}
+                <span className="text-olive-600 font-semibold">code</span>, I
+                always keep the end user at the center of my decision-making
+                process.
               </p>
 
               <div className="grid sm:grid-cols-2 gap-6 mt-8">
@@ -336,8 +346,10 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">
               Skills & Expertise
             </h2>
-            <p className="text-xl text-olive-600 max-w-3xl mx-auto">
-              A comprehensive skill set spanning design and development
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              A comprehensive skill set spanning{" "}
+              <span className="text-olive-600 font-semibold">design</span> and{" "}
+              <span className="text-olive-600 font-semibold">development</span>
             </p>
           </div>
 
@@ -382,8 +394,11 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">
               Featured Projects
             </h2>
-            <p className="text-xl text-olive-600 max-w-3xl mx-auto">
-              Showcasing my best work in UX design and development
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Showcasing my best work in{" "}
+              <span className="text-olive-600 font-semibold">UX design</span>{" "}
+              and{" "}
+              <span className="text-olive-600 font-semibold">development</span>
             </p>
           </div>
 
@@ -451,8 +466,10 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">
               What People Say
             </h2>
-            <p className="text-xl text-olive-600 max-w-3xl mx-auto">
-              Testimonials from clients and colleagues
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Testimonials from{" "}
+              <span className="text-olive-600 font-semibold">clients</span> and{" "}
+              <span className="text-olive-600 font-semibold">colleagues</span>
             </p>
           </div>
 
@@ -490,9 +507,12 @@ const Index = () => {
           <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-8">
             Let's Work Together
           </h2>
-          <p className="text-xl text-olive-600 mb-12 max-w-2xl mx-auto">
-            Ready to bring your ideas to life? I'd love to hear about your
-            project and discuss how we can create something amazing together.
+          <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
+            Ready to bring your{" "}
+            <span className="text-olive-600 font-semibold">ideas</span> to life?
+            I'd love to hear about your
+            <span className="text-olive-600 font-semibold">project</span> and
+            discuss how we can create something amazing together.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">

@@ -40,7 +40,7 @@ const Navbar = () => {
                 to={item.path}
                 className={cn(
                   "text-sm font-medium transition-colors hover:text-olive-600",
-                  isActivePage(item.path) ? "text-olive-600" : "text-olive-800",
+                  isActivePage(item.path) ? "text-olive-600" : "text-gray-700",
                 )}
               >
                 {item.name}
@@ -54,7 +54,7 @@ const Navbar = () => {
               variant="ghost"
               size="sm"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-olive-800"
+              className="text-gray-700"
             >
               {isMenuOpen ? (
                 <X className="h-5 w-5" />
@@ -79,7 +79,7 @@ const Navbar = () => {
                   "block w-full text-left px-3 py-2 text-sm font-medium transition-colors hover:bg-olive-100 rounded-md",
                   isActivePage(item.path)
                     ? "text-olive-600 bg-olive-50"
-                    : "text-olive-800",
+                    : "text-gray-700",
                 )}
               >
                 {item.name}

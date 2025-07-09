@@ -8,35 +8,35 @@
    * tailwind.config.ts expects the following color variables to be expressed as HSL values.
    */
   :root {
-    /* Base theme using cream tones */
-    --background: 45 30% 96%;
-    --foreground: 80 25% 15%;
+    /* Base theme using butter cream */
+    --background: 45 40% 95%;
+    --foreground: 45 15% 25%;
 
-    --card: 45 40% 98%;
-    --card-foreground: 80 25% 15%;
+    --card: 45 50% 98%;
+    --card-foreground: 45 15% 25%;
 
-    --popover: 45 40% 98%;
-    --popover-foreground: 80 25% 15%;
+    --popover: 45 50% 98%;
+    --popover-foreground: 45 15% 25%;
 
-    /* Primary using olive green */
+    /* Primary using olive green for key elements */
     --primary: 80 30% 35%;
     --primary-foreground: 45 40% 98%;
 
-    /* Secondary using butter cream */
-    --secondary: 45 40% 92%;
-    --secondary-foreground: 80 30% 25%;
+    /* Secondary using neutral cream tones */
+    --secondary: 45 25% 88%;
+    --secondary-foreground: 45 20% 30%;
 
-    --muted: 45 25% 90%;
-    --muted-foreground: 80 15% 45%;
+    --muted: 45 20% 90%;
+    --muted-foreground: 45 10% 50%;
 
-    --accent: 80 20% 88%;
-    --accent-foreground: 80 30% 25%;
+    --accent: 45 30% 92%;
+    --accent-foreground: 45 20% 30%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 45 40% 98%;
 
-    --border: 45 20% 85%;
-    --input: 45 20% 85%;
+    --border: 45 15% 80%;
+    --input: 45 15% 85%;
     --ring: 80 30% 35%;
 
     --radius: 0.75rem;
@@ -139,11 +139,11 @@
   }
 
   .gradient-bg {
-    @apply bg-gradient-to-br from-cream-100 via-cream-50 to-olive-50;
+    @apply bg-gradient-to-br from-cream-200 via-cream-100 to-cream-50;
   }
 
   .glass-effect {
-    @apply backdrop-blur-sm bg-white/80 border border-white/20;
+    @apply backdrop-blur-sm bg-cream-50/90 border border-cream-200/50;
   }
 
   .olive-gradient {
