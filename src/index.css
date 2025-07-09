@@ -18,8 +18,8 @@
     --popover: 45 50% 98%;
     --popover-foreground: 45 15% 25%;
 
-    /* Primary using olive green for key elements */
-    --primary: 80 30% 35%;
+    /* Primary using deeper olive green for key elements */
+    --primary: 80 35% 25%;
     --primary-foreground: 45 40% 98%;
 
     /* Secondary using neutral cream tones */
@@ -37,21 +37,21 @@
 
     --border: 45 15% 80%;
     --input: 45 15% 85%;
-    --ring: 80 30% 35%;
+    --ring: 80 35% 25%;
 
     --radius: 0.75rem;
 
-    /* Olive green color palette */
+    /* Olive green color palette - deeper tones */
     --olive-50: 80 40% 97%;
     --olive-100: 80 35% 93%;
     --olive-200: 80 30% 85%;
     --olive-300: 80 25% 75%;
     --olive-400: 80 25% 65%;
-    --olive-500: 80 30% 55%;
-    --olive-600: 80 30% 45%;
-    --olive-700: 80 30% 35%;
-    --olive-800: 80 25% 25%;
-    --olive-900: 80 20% 15%;
+    --olive-500: 80 35% 45%;
+    --olive-600: 80 35% 35%;
+    --olive-700: 80 35% 25%;
+    --olive-800: 80 30% 18%;
+    --olive-900: 80 25% 12%;
 
     /* Butter cream color palette */
     --cream-50: 45 50% 98%;
@@ -135,7 +135,7 @@
 
 @layer components {
   .gradient-text {
-    @apply bg-gradient-to-r from-olive-600 via-olive-500 to-olive-700 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-olive-700 via-olive-600 to-olive-800 bg-clip-text text-transparent;
   }
 
   .gradient-bg {
@@ -147,7 +147,7 @@
   }
 
   .olive-gradient {
-    @apply bg-gradient-to-r from-olive-600 to-olive-700;
+    @apply bg-gradient-to-r from-olive-700 to-olive-800;
   }
 
   .cream-gradient {
