@@ -1,17 +1,9 @@
-<<<<<<< HEAD
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
-
-export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs));
-=======
-import { ClassValue, clsx } from "clsx"
-import { twMerge } from "tailwind-merge"
 
 /**
  * Combines Tailwind classes with conditional logic and removes duplicates.
  */
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
->>>>>>> origin/main
+  return twMerge(clsx(inputs));
 }
