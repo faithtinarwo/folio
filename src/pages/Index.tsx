@@ -295,10 +295,10 @@ const Index = () => {
                 I'm Faith Tinarwo, a{" "}
                 <span className="text-olive-600 font-semibold">
                   UX Designer and Software Developer
-                </span>{" "}
-                based in Johannesburg, South Africa. My journey blends a passion
-                for intuitive design with hands-on coding, allowing me to
-                deliver seamless digital products from concept to launch.
+                </span>
+                &nbsp;based in Johannesburg, South Africa. My journey blends a
+                passion for intuitive design with hands-on coding, allowing me
+                to deliver seamless digital products from concept to launch.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
                 I believe great{" "}
@@ -338,7 +338,7 @@ const Index = () => {
                     <div className="flex items-center gap-3">
                       <BookOpen className="h-5 w-5 text-olive-600" />
                       <span className="text-olive-700">
-                        BSc in Computer Science and Mathematics
+                        Degree in Computer Science
                       </span>
                     </div>
                     <div className="flex items-center gap-3">
