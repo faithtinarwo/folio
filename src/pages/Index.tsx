@@ -48,57 +48,80 @@ const Index = () => {
         "Designed and developed a user-friendly school website from the ground up. Conducted stakeholder interviews to understand user needs, created wireframes and high-fidelity prototypes, and implemented a responsive design system to ensure accessibility across all devices.",
       image: "/images/school.png",
       tags: ["UX Design", "UI Design", "Figma", "User Research", "Prototyping"],
-      link: "https://new-day-website.vercel.app/",
-      github: "https://github.com/faithtinarwo/New-Day-website",
+      link: "#",
+      github: "#",
       type: "design",
-      category: "Web Design & Development",
-      year: "2025",
     },
     {
-      title: "NextFlex Cybersecurity Website",
+      title: "Agentfree - Voice AI Application",
       description:
-        "Redesigned and redeveloped a cybersecurity website to clearly communicate services and build user trust. Focused on creating a clean, professional interface that highlights threat protection solutions, incident response, and security awareness resources, while ensuring a responsive and accessible user experience.",
-      image: "/images/cyber.png",
-      tags: ["React", "TypeScript", "Node.js", "Html", "Stripe API"],
-      link: "https://nextflex-cyber-shield.vercel.app/",
-      github: "https://github.com/faithtinarwo/nextflex-cyber-shield",
+        "Designed and developed a voice AI application that facilitates seamless communication. Built the frontend using React and TypeScript, integrated WebSocket for real-time functionality, and ensured optimal user experience across multiple devices.",
+      image: "/images/agentfree.png",
+      tags: ["React", "TypeScript", "WebSocket", "Voice AI", "Frontend"],
+      link: "#",
+      github: "#",
       type: "development",
-      category: "Web Development",
-      year: "2024",
     },
     {
-      title: "TradeWise Mobile App ",
+      title: "TeleOncology - Telemedicine Platform UI/UX",
       description:
-        "Empowering Small Traders Through Voice-First AI Solutions",
-      image: "images/tradewise.png",
-      tags: ["Design System", "Figma", "Component Library", "Mobile Design"],
-      link: "https://tradewise-y2o4.onrender.com/",
-      github: "https://github.com/faithtinarwo/coding_vibe_hackathon",
+        "Designed the user interface for a telemedicine platform connecting patients with oncology specialists. Focused on creating an empathetic, accessible design that simplifies complex medical workflows while maintaining HIPAA compliance standards.",
+      image: "/images/tele logo.png",
+      tags: ["UI/UX Design", "Healthcare", "Accessibility", "Figma"],
+      link: "#",
+      github: "#",
       type: "design",
-      category: "Mobile Design",
-      year: "2025",
     },
-    
+    {
+      title: "TradeWise - Forex Trading Platform",
+      description:
+        "Developed a comprehensive forex trading platform with real-time market data, advanced charting tools, and risk management features. Built using modern web technologies to ensure fast, reliable trading experiences.",
+      image: "/images/tradewise.png",
+      tags: ["React", "Financial Tech", "Real-time Data", "Trading"],
+      link: "#",
+      github: "#",
+      type: "development",
+    },
+    {
+      title: "CyberSecurity Dashboard Design",
+      description:
+        "Designed an intuitive cybersecurity dashboard for monitoring network threats and security incidents. Emphasized clear data visualization and quick action workflows to help security teams respond effectively to threats.",
+      image: "/images/cyber.png",
+      tags: ["Dashboard Design", "Data Visualization", "Security", "UX"],
+      link: "#",
+      github: "#",
+      type: "design",
+    },
+    {
+      title: "Gaseous - Environmental Monitoring App",
+      description:
+        "Created a mobile application for environmental monitoring and gas detection. Developed both the user interface design and frontend implementation, focusing on real-time data presentation and emergency alert systems.",
+      image: "/images/gaseous.png",
+      tags: ["Mobile App", "Environmental Tech", "React Native", "IoT"],
+      link: "#",
+      github: "#",
+      type: "development",
+    },
   ];
 
   const testimonials = [
     {
-      name: "Joy Murerwa",
-      role: "Administrator at Gaseous Solutions",
+      name: "Sarah Johnson",
+      role: "Product Manager at TechCorp",
       content:
         "Faith's ability to bridge design and development is exceptional. She delivered a product that exceeded all our expectations.",
       rating: 5,
     },
     {
-      name: "Natasha",
-      role: "Principal at New Day School",
+      name: "Michael Chen",
+      role: "CTO at StartupXYZ",
       content:
         "Working with Faith was a game-changer. Her UX insights and technical skills helped us build something truly innovative.",
       rating: 5,
     },
     {
-      name: "Mike",
-      role: "Cybersecurity Expert at NextFlex",
+      name: "Emily Rodriguez",
+      role: "Design Director at CreativeAgency",
       content:
         "Faith brings a unique perspective that combines beautiful design with practical implementation. Absolutely brilliant!",
       rating: 5,
@@ -162,7 +185,7 @@ const Index = () => {
           <div className="space-y-8 animate-slide-up">
             <div className="space-y-4">
               <h1 className="text-5xl md:text-7xl font-bold">
-                <span className="text-olive-800">Hi, I'm</span>
+                <span className="text-gray-800">Hi, I'm</span>
                 <br />
                 <span className="gradient-text">Faith Tinarwo</span>
               </h1>
@@ -187,48 +210,38 @@ const Index = () => {
                   View My Work <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
-              <a href="/Faith-CV.pdf" download></a>
-                  <Button
-                    variant="outline"
-                    size="lg"
-                    className="border-olive-600 text-olive-600 hover:bg-olive-50"
-                  >
-                    <Download className="mr-2 h-4 w-4" />
-                    Download CV
-                  </Button>
+              <a href="/Faith-CV.pdf" target="_blank" rel="noopener noreferrer">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="border-olive-600 text-olive-600 hover:bg-olive-50"
+                >
+                  <Download className="mr-2 h-4 w-4" />
+                  Download CV
+                </Button>
+              </a>
             </div>
 
             <div className="flex items-center space-x-6">
               <a
-<<<<<<< HEAD
-                href="#"
-                className="text-gray-600 hover:text-olive-600 transition-colors"
-=======
                 href="https://github.com/faithtinarwo"
-                className="text-olive-600 hover:text-olive-700 transition-colors"
->>>>>>> origin/main
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-olive-600 transition-colors"
               >
                 <Github className="h-6 w-6" />
               </a>
               <a
-<<<<<<< HEAD
-                href="#"
-                className="text-gray-600 hover:text-olive-600 transition-colors"
-=======
                 href="https://www.linkedin.com/in/faith-tinarwo-5abaa1327/"
-                className="text-olive-600 hover:text-olive-700 transition-colors"
->>>>>>> origin/main
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-olive-600 transition-colors"
               >
                 <Linkedin className="h-6 w-6" />
               </a>
               <a
-<<<<<<< HEAD
-                href="#"
+                href="mailto:fayyic@gmail.com"
                 className="text-gray-600 hover:text-olive-600 transition-colors"
-=======
-                href="fayyic@gmail.com"
-                className="text-olive-600 hover:text-olive-700 transition-colors"
->>>>>>> origin/main
               >
                 <Mail className="h-6 w-6" />
               </a>
@@ -236,19 +249,21 @@ const Index = () => {
           </div>
 
           <div className="relative">
-            <div className="relative w-100 h-100 mx-auto rounded-2xl overflow-hidden shadow-2xl animate-float">
+            <div className="relative w-96 h-96 mx-auto rounded-2xl overflow-hidden shadow-2xl animate-float">
               <img
                 src="/images/hero.jpg"
-                alt="Professional workspace with hands coding on laptop"
+                alt="Faith Tinarwo - Professional workspace"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-olive-900/40 via-transparent to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4 text-center">
                 <div className="glass-effect rounded-lg p-3">
-                  <div className="flex items-center justify-center gap-2 text-olive-800">
+                  <div className="flex items-center justify-center gap-2 text-white">
                     <Code className="h-5 w-5" />
-                    <span className="font-bold">Design × Development</span>
-                    <Palette className="h-8 w-8" />
+                    <span className="font-semibold gradient-text">
+                      Design × Development
+                    </span>
+                    <Palette className="h-5 w-5" />
                   </div>
                 </div>
               </div>
@@ -276,15 +291,14 @@ const Index = () => {
 
           <div className="grid lg:grid-cols-2 gap-12 items-start lg:items-center">
             <div className="space-y-6 lg:pr-8">
-<<<<<<< HEAD
               <p className="text-lg text-gray-700 leading-relaxed">
-                I'm a multidisciplinary{" "}
+                I'm Faith Tinarwo, a{" "}
                 <span className="text-olive-600 font-semibold">
-                  designer and developer
+                  UX Designer and Software Developer
                 </span>{" "}
-                with over 5 years of experience creating digital products that
-                users love. My unique background allows me to understand both
-                the creative and technical aspects of product development.
+                based in Johannesburg, South Africa. My journey blends a passion
+                for intuitive design with hands-on coding, allowing me to
+                deliver seamless digital products from concept to launch.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
                 I believe great{" "}
@@ -298,17 +312,6 @@ const Index = () => {
                 <span className="text-olive-600 font-semibold">code</span>, I
                 always keep the end user at the center of my decision-making
                 process.
-=======
-              <p className="text-lg text-olive-700 leading-relaxed">
-                I'm Faith Tinarwo, a UX Designer and Software Developer based in Johannesburg, South Africa. 
-                My journey blends a passion for intuitive design with hands-on coding, allowing me 
-                to deliver seamless digital products from concept to launch.
-              </p>
-              <p className="text-lg text-olive-700 leading-relaxed">
-                I believe great design should be accessible, functional, and
-                beautiful. I always keep the end user at the
-                center of my decision-making process.
->>>>>>> origin/main
               </p>
 
               <div className="grid sm:grid-cols-2 gap-6 mt-8">
@@ -335,25 +338,25 @@ const Index = () => {
                     <div className="flex items-center gap-3">
                       <BookOpen className="h-5 w-5 text-olive-600" />
                       <span className="text-olive-700">
-                        Associate Degree in Computer Science (UoPeople)
+                        BSc in Computer Science and Mathematics
                       </span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Award className="h-5 w-5 text-olive-600" />
                       <span className="text-olive-700">
-                        Certified UX Designer (Uxcel)
+                        Google UX Design Certified
                       </span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Code className="h-5 w-5 text-olive-600" />
                       <span className="text-olive-700">
-                        Software Developer (Power Learn Projects)
+                        Full-Stack Developer
                       </span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Users className="h-5 w-5 text-olive-600" />
                       <span className="text-olive-700">
-                        User Experience Enthusiast
+                        User Research Enthusiast
                       </span>
                     </div>
                   </div>
@@ -553,7 +556,7 @@ const Index = () => {
               <CardContent className="p-6 text-center">
                 <Phone className="h-8 w-8 text-olive-600 mx-auto mb-4" />
                 <h3 className="font-semibold text-olive-800 mb-2">Phone</h3>
-                <p className="text-olive-600">+27 717 944 157</p>
+                <p className="text-olive-600">+27 68 314 8885</p>
               </CardContent>
             </Card>
 
@@ -561,7 +564,7 @@ const Index = () => {
               <CardContent className="p-6 text-center">
                 <Linkedin className="h-8 w-8 text-olive-600 mx-auto mb-4" />
                 <h3 className="font-semibold text-olive-800 mb-2">LinkedIn</h3>
-                <p className="text-olive-600">@faithtinarwo</p>
+                <p className="text-olive-600">@faith-tinarwo</p>
               </CardContent>
             </Card>
           </div>
@@ -587,18 +590,22 @@ const Index = () => {
           <div className="flex items-center space-x-6 mt-4 md:mt-0">
             <a
               href="https://github.com/faithtinarwo"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-olive-600 hover:text-olive-700 transition-colors"
             >
               <Github className="h-5 w-5" />
             </a>
             <a
               href="https://www.linkedin.com/in/faith-tinarwo-5abaa1327/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-olive-600 hover:text-olive-700 transition-colors"
             >
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="#"
+              href="mailto:fayyic@gmail.com"
               className="text-olive-600 hover:text-olive-700 transition-colors"
             >
               <Mail className="h-5 w-5" />
