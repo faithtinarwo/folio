@@ -112,7 +112,9 @@
 
   body {
     @apply bg-background text-foreground font-medium;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
   }
 
   html {
@@ -127,8 +129,17 @@
 
   .gradient-bg {
     @apply bg-gradient-to-br from-gray-900 via-gray-800 to-black;
-    background-image: radial-gradient(circle at 20% 80%, rgba(120, 153, 78, 0.1) 0%, transparent 50%),
-                      radial-gradient(circle at 80% 20%, rgba(120, 153, 78, 0.1) 0%, transparent 50%);
+    background-image:
+      radial-gradient(
+        circle at 20% 80%,
+        rgba(120, 153, 78, 0.1) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 80% 20%,
+        rgba(120, 153, 78, 0.1) 0%,
+        transparent 50%
+      );
   }
 
   .glass-effect {

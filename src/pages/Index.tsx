@@ -349,9 +349,7 @@ const Index = () => {
                     </div>
                     <div className="flex items-center gap-3">
                       <Code className="h-5 w-5 text-olive-600" />
-                      <span className="text-white">
-                        Full-Stack Developer
-                      </span>
+                      <span className="text-white">Full-Stack Developer</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Users className="h-5 w-5 text-olive-600" />
@@ -390,9 +388,7 @@ const Index = () => {
                 <CardContent className="p-6">
                   <div className="flex items-center gap-3 mb-4">
                     <skill.icon className="h-6 w-6 text-olive-600" />
-                    <h3 className="font-semibold text-white">
-                      {skill.name}
-                    </h3>
+                    <h3 className="font-semibold text-white">{skill.name}</h3>
                   </div>
                   <div className="space-y-2">
                     <div className="flex justify-between text-sm">
