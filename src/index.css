@@ -8,62 +8,60 @@
    * tailwind.config.ts expects the following color variables to be expressed as HSL values.
    */
   :root {
-    /* Base theme using butter cream */
-    --background: 45 40% 95%;
-    --foreground: 45 15% 25%;
+    /* Dark theme inspired by andishi.dev */
+    --background: 220 13% 9%;
+    --foreground: 0 0% 100%;
 
-    --card: 45 50% 98%;
-    --card-foreground: 45 15% 25%;
+    --card: 220 13% 11%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 45 50% 98%;
-    --popover-foreground: 45 15% 25%;
+    --popover: 220 13% 11%;
+    --popover-foreground: 0 0% 100%;
 
-    /* Primary using deeper olive green for key elements */
-    --primary: 80 35% 25%;
-    --primary-foreground: 45 40% 98%;
+    /* Primary using olive green for Faith's branding */
+    --primary: 80 35% 55%;
+    --primary-foreground: 220 13% 9%;
 
-    /* Secondary using neutral cream tones */
-    --secondary: 45 25% 88%;
-    --secondary-foreground: 45 20% 30%;
+    /* Secondary using dark tones */
+    --secondary: 220 13% 15%;
+    --secondary-foreground: 0 0% 87%;
 
-    --muted: 45 20% 90%;
-    --muted-foreground: 45 10% 50%;
+    --muted: 220 13% 15%;
+    --muted-foreground: 0 0% 71%;
 
-    --accent: 45 30% 92%;
-    --accent-foreground: 45 20% 30%;
+    --accent: 220 13% 15%;
+    --accent-foreground: 0 0% 87%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 45 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 45 15% 80%;
-    --input: 45 15% 85%;
-    --ring: 80 35% 25%;
+    --border: 220 13% 15%;
+    --input: 220 13% 15%;
+    --ring: 80 35% 55%;
 
     --radius: 0.75rem;
 
-    /* Olive green color palette - deeper tones */
-    --olive-50: 80 40% 97%;
-    --olive-100: 80 35% 93%;
-    --olive-200: 80 30% 85%;
-    --olive-300: 80 25% 75%;
-    --olive-400: 80 25% 65%;
-    --olive-500: 80 35% 45%;
-    --olive-600: 80 35% 35%;
-    --olive-700: 80 35% 25%;
-    --olive-800: 80 30% 18%;
-    --olive-900: 80 25% 12%;
+    /* Olive green color palette - bright for dark theme */
+    --olive-50: 80 45% 92%;
+    --olive-100: 80 40% 85%;
+    --olive-200: 80 35% 75%;
+    --olive-300: 80 30% 65%;
+    --olive-400: 80 35% 55%;
+    --olive-500: 80 35% 55%;
+    --olive-600: 80 35% 55%;
+    --olive-700: 80 35% 45%;
+    --olive-800: 80 30% 35%;
+    --olive-900: 80 25% 25%;
 
-    /* Butter cream color palette */
-    --cream-50: 45 50% 98%;
-    --cream-100: 45 45% 95%;
-    --cream-200: 45 40% 90%;
-    --cream-300: 45 35% 82%;
-    --cream-400: 45 30% 72%;
-    --cream-500: 45 25% 62%;
-    --cream-600: 45 20% 52%;
-    --cream-700: 45 18% 42%;
-    --cream-800: 45 15% 32%;
-    --cream-900: 45 12% 22%;
+    /* Accent colors for dark theme */
+    --accent-blue: 215 100% 70%;
+    --accent-purple: 270 70% 70%;
+    --accent-orange: 25 85% 65%;
+    --accent-green: 130 65% 75%;
+
+    /* Glass morphism colors */
+    --glass-bg: 0 0% 100% / 0.1;
+    --glass-border: 0 0% 100% / 0.2;
 
     --sidebar-background: 45 30% 96%;
     --sidebar-foreground: 80 25% 25%;
@@ -76,43 +74,34 @@
   }
 
   .dark {
-    /* Dark theme with olive green dominance */
-    --background: 80 20% 8%;
-    --foreground: 45 30% 92%;
+    /* Darker version for explicit dark mode */
+    --background: 220 13% 6%;
+    --foreground: 0 0% 100%;
 
-    --card: 80 15% 12%;
-    --card-foreground: 45 30% 92%;
+    --card: 220 13% 8%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 80 15% 12%;
-    --popover-foreground: 45 30% 92%;
+    --popover: 220 13% 8%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 80 35% 65%;
-    --primary-foreground: 80 20% 8%;
+    --primary: 80 35% 60%;
+    --primary-foreground: 220 13% 6%;
 
-    --secondary: 80 10% 18%;
-    --secondary-foreground: 45 30% 88%;
+    --secondary: 220 13% 12%;
+    --secondary-foreground: 0 0% 87%;
 
-    --muted: 80 8% 20%;
-    --muted-foreground: 45 15% 65%;
+    --muted: 220 13% 12%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 80 12% 25%;
-    --accent-foreground: 45 30% 88%;
+    --accent: 220 13% 12%;
+    --accent-foreground: 0 0% 87%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 45 30% 92%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 80 8% 22%;
-    --input: 80 8% 22%;
-    --ring: 80 35% 65%;
-
-    --sidebar-background: 80 15% 10%;
-    --sidebar-foreground: 45 25% 85%;
-    --sidebar-primary: 80 35% 65%;
-    --sidebar-primary-foreground: 80 15% 10%;
-    --sidebar-accent: 80 8% 18%;
-    --sidebar-accent-foreground: 45 25% 85%;
-    --sidebar-border: 80 8% 18%;
-    --sidebar-ring: 80 35% 65%;
+    --border: 220 13% 12%;
+    --input: 220 13% 12%;
+    --ring: 80 35% 60%;
   }
 }
 
@@ -123,9 +112,7 @@
 
   body {
     @apply bg-background text-foreground font-medium;
-    font-feature-settings:
-      "rlig" 1,
-      "calt" 1;
+    font-feature-settings: "rlig" 1, "calt" 1;
   }
 
   html {
@@ -135,22 +122,38 @@
 
 @layer components {
   .gradient-text {
-    @apply bg-gradient-to-r from-olive-700 via-olive-600 to-olive-800 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-olive-400 via-olive-500 to-olive-600 bg-clip-text text-transparent;
   }
 
   .gradient-bg {
-    @apply bg-gradient-to-br from-cream-200 via-cream-100 to-cream-50;
+    @apply bg-gradient-to-br from-gray-900 via-gray-800 to-black;
+    background-image: radial-gradient(circle at 20% 80%, rgba(120, 153, 78, 0.1) 0%, transparent 50%),
+                      radial-gradient(circle at 80% 20%, rgba(120, 153, 78, 0.1) 0%, transparent 50%);
   }
 
   .glass-effect {
-    @apply backdrop-blur-sm bg-cream-50/90 border border-cream-200/50;
+    @apply backdrop-blur-md bg-white/10 border border-white/20;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+
+  .glass-card {
+    @apply backdrop-blur-md bg-white/5 border border-white/10;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
   }
 
   .olive-gradient {
-    @apply bg-gradient-to-r from-olive-700 to-olive-800;
+    @apply bg-gradient-to-r from-olive-500 to-olive-600;
   }
 
-  .cream-gradient {
-    @apply bg-gradient-to-r from-cream-100 to-cream-200;
+  .accent-gradient {
+    @apply bg-gradient-to-r from-blue-500 to-purple-600;
+  }
+
+  .floating-animation {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .glow-effect {
+    box-shadow: 0 0 20px rgba(120, 153, 78, 0.3);
   }
 }
