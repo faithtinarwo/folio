@@ -249,7 +249,7 @@ const Index = () => {
           </div>
 
           <div className="relative">
-            <div className="relative w-96 h-96 mx-auto rounded-2xl overflow-hidden shadow-2xl animate-float">
+            <div className="relative w-[32rem] h-[32rem] mx-auto rounded-2xl overflow-hidden shadow-2xl animate-float">
               <img
                 src="/images/hero.jpg"
                 alt="Faith Tinarwo - Professional workspace"
