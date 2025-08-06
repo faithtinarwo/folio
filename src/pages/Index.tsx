@@ -257,10 +257,10 @@ const Index = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-olive-900/40 via-transparent to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4 text-center">
-                <div className="glass-effect rounded-lg p-3">
+                <div className="bg-black/80 backdrop-blur-sm border border-white/20 rounded-lg p-3">
                   <div className="flex items-center justify-center gap-2 text-white">
                     <Code className="h-5 w-5" />
-                    <span className="font-semibold gradient-text">
+                    <span className="font-semibold text-white">
                       Design × Development
                     </span>
                     <Palette className="h-5 w-5" />
