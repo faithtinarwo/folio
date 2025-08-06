@@ -185,16 +185,16 @@ const Index = () => {
           <div className="space-y-8 animate-slide-up">
             <div className="space-y-4">
               <h1 className="text-5xl md:text-7xl font-bold">
-                <span className="text-gray-800">Hi, I'm</span>
+                <span className="text-white">Hi, I'm</span>
                 <br />
                 <span className="gradient-text">Faith Tinarwo</span>
               </h1>
-              <p className="text-xl md:text-2xl text-gray-700 font-medium">
+              <p className="text-xl md:text-2xl text-white font-medium">
                 <span className="inline-block transition-all duration-500 ease-in-out gradient-text">
                   {roles[currentRole]}
                 </span>
               </p>
-              <p className="text-lg text-gray-600 max-w-lg leading-relaxed">
+              <p className="text-lg text-white max-w-lg leading-relaxed">
                 I craft beautiful, user-centered digital experiences that bridge
                 the gap between design and development. Let's build something
                 amazing together.
@@ -227,7 +227,7 @@ const Index = () => {
                 href="https://github.com/faithtinarwo"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-olive-600 transition-colors"
+                className="text-white hover:text-olive-600 transition-colors"
               >
                 <Github className="h-6 w-6" />
               </a>
@@ -235,13 +235,13 @@ const Index = () => {
                 href="https://www.linkedin.com/in/faith-tinarwo-5abaa1327/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-olive-600 transition-colors"
+                className="text-white hover:text-olive-600 transition-colors"
               >
                 <Linkedin className="h-6 w-6" />
               </a>
               <a
                 href="mailto:fayyic@gmail.com"
-                className="text-gray-600 hover:text-olive-600 transition-colors"
+                className="text-white hover:text-olive-600 transition-colors"
               >
                 <Mail className="h-6 w-6" />
               </a>
@@ -283,7 +283,7 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">
               About Me
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-white max-w-3xl mx-auto">
               Passionate about creating digital experiences that make a
               difference
             </p>
@@ -291,7 +291,7 @@ const Index = () => {
 
           <div className="grid lg:grid-cols-2 gap-12 items-start lg:items-center">
             <div className="space-y-6 lg:pr-8">
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-lg text-white leading-relaxed">
                 I'm Faith Tinarwo, a{" "}
                 <span className="text-olive-600 font-semibold">
                   UX Designer and Software Developer
@@ -300,7 +300,7 @@ const Index = () => {
                 passion for intuitive design with hands-on coding, allowing me
                 to deliver seamless digital products from concept to launch.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-lg text-white leading-relaxed">
                 I believe great{" "}
                 <span className="text-olive-600 font-semibold">design</span>{" "}
                 should be accessible, functional, and beautiful. Whether I'm
@@ -317,13 +317,13 @@ const Index = () => {
               <div className="grid sm:grid-cols-2 gap-6 mt-8">
                 <div className="text-center p-6 rounded-lg glass-effect">
                   <Award className="h-8 w-8 text-olive-600 mx-auto mb-2" />
-                  <h3 className="font-semibold text-olive-800">3+ Years</h3>
-                  <p className="text-olive-600">Experience</p>
+                  <h3 className="font-semibold text-white">3+ Years</h3>
+                  <p className="text-white">Experience</p>
                 </div>
                 <div className="text-center p-6 rounded-lg glass-effect">
                   <Heart className="h-8 w-8 text-olive-600 mx-auto mb-2" />
-                  <h3 className="font-semibold text-olive-800">20+ Projects</h3>
-                  <p className="text-olive-600">Completed</p>
+                  <h3 className="font-semibold text-white">20+ Projects</h3>
+                  <p className="text-white">Completed</p>
                 </div>
               </div>
             </div>
@@ -331,31 +331,31 @@ const Index = () => {
             <div className="lg:pl-8">
               <Card className="glass-effect h-full">
                 <CardContent className="p-8">
-                  <h3 className="text-2xl font-bold text-olive-800 mb-6">
+                  <h3 className="text-2xl font-bold text-white mb-6">
                     Quick Facts
                   </h3>
                   <div className="space-y-4">
                     <div className="flex items-center gap-3">
                       <BookOpen className="h-5 w-5 text-olive-600" />
-                      <span className="text-olive-700">
+                      <span className="text-white">
                         Degree in Computer Science
                       </span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Award className="h-5 w-5 text-olive-600" />
-                      <span className="text-olive-700">
+                      <span className="text-white">
                         Google UX Design Certified
                       </span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Code className="h-5 w-5 text-olive-600" />
-                      <span className="text-olive-700">
+                      <span className="text-white">
                         Full-Stack Developer
                       </span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Users className="h-5 w-5 text-olive-600" />
-                      <span className="text-olive-700">
+                      <span className="text-white">
                         User Research Enthusiast
                       </span>
                     </div>
@@ -374,7 +374,7 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">
               Skills & Expertise
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-white max-w-3xl mx-auto">
               A comprehensive skill set spanning{" "}
               <span className="text-olive-600 font-semibold">design</span> and{" "}
               <span className="text-olive-600 font-semibold">development</span>
@@ -390,14 +390,14 @@ const Index = () => {
                 <CardContent className="p-6">
                   <div className="flex items-center gap-3 mb-4">
                     <skill.icon className="h-6 w-6 text-olive-600" />
-                    <h3 className="font-semibold text-olive-800">
+                    <h3 className="font-semibold text-white">
                       {skill.name}
                     </h3>
                   </div>
                   <div className="space-y-2">
                     <div className="flex justify-between text-sm">
                       <span className="text-olive-600">Proficiency</span>
-                      <span className="text-olive-800 font-medium">
+                      <span className="text-white font-medium">
                         {skill.level}%
                       </span>
                     </div>
@@ -422,7 +422,7 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">
               Featured Projects
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-white max-w-3xl mx-auto">
               Showcasing my best work in{" "}
               <span className="text-olive-600 font-semibold">UX design</span>{" "}
               and{" "}
@@ -445,10 +445,10 @@ const Index = () => {
                   <div className="absolute inset-0 bg-olive-600/0 group-hover:bg-olive-600/20 transition-colors duration-300" />
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-bold text-olive-800 mb-2">
+                  <h3 className="text-xl font-bold text-white mb-2">
                     {project.title}
                   </h3>
-                  <p className="text-olive-600 mb-4 leading-relaxed">
+                  <p className="text-white mb-4 leading-relaxed">
                     {project.description}
                   </p>
 
@@ -494,7 +494,7 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">
               What People Say
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-white max-w-3xl mx-auto">
               Testimonials from{" "}
               <span className="text-olive-600 font-semibold">clients</span> and{" "}
               <span className="text-olive-600 font-semibold">colleagues</span>
@@ -513,14 +513,14 @@ const Index = () => {
                       />
                     ))}
                   </div>
-                  <p className="text-olive-700 mb-4 italic">
+                  <p className="text-white mb-4 italic">
                     "{testimonial.content}"
                   </p>
                   <div>
-                    <p className="font-semibold text-olive-800">
+                    <p className="font-semibold text-white">
                       {testimonial.name}
                     </p>
-                    <p className="text-sm text-olive-600">{testimonial.role}</p>
+                    <p className="text-sm text-gray-300">{testimonial.role}</p>
                   </div>
                 </CardContent>
               </Card>
@@ -535,10 +535,10 @@ const Index = () => {
           <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-8">
             Let's Work Together
           </h2>
-          <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
+          <p className="text-xl text-white mb-12 max-w-2xl mx-auto">
             Ready to bring your{" "}
             <span className="text-olive-600 font-semibold">ideas</span> to life?
-            I'd love to hear about your
+            I'd love to hear about your{" "}
             <span className="text-olive-600 font-semibold">project</span> and
             discuss how we can create something amazing together.
           </p>
@@ -547,24 +547,24 @@ const Index = () => {
             <Card className="glass-effect">
               <CardContent className="p-6 text-center">
                 <Mail className="h-8 w-8 text-olive-600 mx-auto mb-4" />
-                <h3 className="font-semibold text-olive-800 mb-2">Email</h3>
-                <p className="text-olive-600">fayyic@gmail.com</p>
+                <h3 className="font-semibold text-white mb-2">Email</h3>
+                <p className="text-white">fayyic@gmail.com</p>
               </CardContent>
             </Card>
 
             <Card className="glass-effect">
               <CardContent className="p-6 text-center">
                 <Phone className="h-8 w-8 text-olive-600 mx-auto mb-4" />
-                <h3 className="font-semibold text-olive-800 mb-2">Phone</h3>
-                <p className="text-olive-600">+27 68 314 8885</p>
+                <h3 className="font-semibold text-white mb-2">Phone</h3>
+                <p className="text-white">+27 68 314 8885</p>
               </CardContent>
             </Card>
 
             <Card className="glass-effect">
               <CardContent className="p-6 text-center">
                 <Linkedin className="h-8 w-8 text-olive-600 mx-auto mb-4" />
-                <h3 className="font-semibold text-olive-800 mb-2">LinkedIn</h3>
-                <p className="text-olive-600">@faith-tinarwo</p>
+                <h3 className="font-semibold text-white mb-2">LinkedIn</h3>
+                <p className="text-white">@faith-tinarwo</p>
               </CardContent>
             </Card>
           </div>
@@ -584,7 +584,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-olive-200">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
-          <p className="text-olive-600">
+          <p className="text-white">
             © 2024 Faith Tinarwo. All rights reserved.
           </p>
           <div className="flex items-center space-x-6 mt-4 md:mt-0">
@@ -592,7 +592,7 @@ const Index = () => {
               href="https://github.com/faithtinarwo"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-olive-600 hover:text-olive-700 transition-colors"
+              className="text-white hover:text-olive-600 transition-colors"
             >
               <Github className="h-5 w-5" />
             </a>
@@ -600,13 +600,13 @@ const Index = () => {
               href="https://www.linkedin.com/in/faith-tinarwo-5abaa1327/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-olive-600 hover:text-olive-700 transition-colors"
+              className="text-white hover:text-olive-600 transition-colors"
             >
               <Linkedin className="h-5 w-5" />
             </a>
             <a
               href="mailto:fayyic@gmail.com"
-              className="text-olive-600 hover:text-olive-700 transition-colors"
+              className="text-white hover:text-olive-600 transition-colors"
             >
               <Mail className="h-5 w-5" />
             </a>
