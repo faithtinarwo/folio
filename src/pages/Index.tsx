@@ -251,8 +251,8 @@ const Index = () => {
           <div className="relative">
             <div className="relative w-[32rem] h-[32rem] mx-auto rounded-2xl overflow-hidden shadow-2xl animate-float">
               <img
-                src="/images/hero.jpg"
-                alt="Faith Tinarwo - Professional workspace"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fe43ae5a6d0bf43e2922fee832226a58b%2F76e8317aee834f1f9d1b42a2c83f5f10?format=webp&width=800"
+                alt="Faith Tinarwo - UX Design workspace with laptop and design sketches"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-olive-900/40 via-transparent to-transparent"></div>
