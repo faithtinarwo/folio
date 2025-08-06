@@ -106,22 +106,22 @@ const Index = () => {
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "Product Manager at TechCorp",
+      name: "Joylin Murerwa",
+      role: "Administrator at Gaseouse Solutions",
       content:
         "Faith's ability to bridge design and development is exceptional. She delivered a product that exceeded all our expectations.",
       rating: 5,
     },
     {
-      name: "Michael Chen",
-      role: "CTO at StartupXYZ",
+      name: "Natasha",
+      role: "Principal at New Day School",
       content:
         "Working with Faith was a game-changer. Her UX insights and technical skills helped us build something truly innovative.",
       rating: 5,
     },
     {
-      name: "Emily Rodriguez",
-      role: "Design Director at CreativeAgency",
+      name: "Mike",
+      role: "Cyber Security at Nextflex",
       content:
         "Faith brings a unique perspective that combines beautiful design with practical implementation. Absolutely brilliant!",
       rating: 5,
@@ -552,7 +552,7 @@ const Index = () => {
               <CardContent className="p-6 text-center">
                 <Phone className="h-8 w-8 text-olive-600 mx-auto mb-4" />
                 <h3 className="font-semibold text-white mb-2">Phone</h3>
-                <p className="text-white">+27 68 314 8885</p>
+                <p className="text-white">+27 717 944 4157</p>
               </CardContent>
             </Card>
 

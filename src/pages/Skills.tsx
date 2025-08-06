@@ -27,7 +27,7 @@ const Skills = () => {
       skills: [
         { name: "Figma", level: 95 },
         { name: "Adobe XD", level: 85 },
-        { name: "Sketch", level: 80 },
+        { name: "Miro", level: 80 },
         { name: "Canva", level: 78 },
       ],
     },
@@ -88,7 +88,7 @@ const Skills = () => {
       {/* Skills Content */}
       <main className="max-w-6xl mx-auto px-4 py-16">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-bold gradient-text mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold gradient-text-white mb-6">
             Skills & Expertise
           </h1>
           <p className="text-xl text-olive-600 max-w-3xl mx-auto leading-relaxed">
@@ -103,7 +103,7 @@ const Skills = () => {
               <CardContent className="p-8">
                 <div className="flex items-center gap-3 mb-6">
                   <category.icon className="h-8 w-8 text-olive-600" />
-                  <h2 className="text-2xl font-bold text-olive-800">
+                  <h2 className="text-2xl font-bold text-white-800">
                     {category.title}
                   </h2>
                 </div>
@@ -135,7 +135,7 @@ const Skills = () => {
 
         {/* Certifications */}
         <div className="mb-20">
-          <h2 className="text-3xl font-bold gradient-text text-center mb-12">
+          <h2 className="text-3xl font-bold gradient-text- white text-center mb-12">
             Certifications & Education
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
@@ -170,24 +170,24 @@ const Skills = () => {
 
         {/* Tools & Technologies */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold gradient-text text-center mb-12">
+          <h2 className="text-3xl font-bold gradient-text-white text-center mb-12">
             Tools & Technologies
           </h2>
           <div className="flex flex-wrap gap-3 justify-center">
             {[
               "Figma",
+              "Adobe XD",
+              "Canva",
               "React",
               "TypeScript",
               "Node.js",
               "Python",
-              "Adobe XD",
-              "Canva",
+              "MySQL",
               "HTML5",
               "CSS3",
               "JavaScript",
               "Tailwind CSS",
               "GitHub",
-              "Vercel",
             ].map((tool) => (
               <Badge
                 key={tool}
@@ -202,7 +202,7 @@ const Skills = () => {
 
         {/* CTA Section */}
         <div className="text-center">
-          <h2 className="text-3xl font-bold gradient-text mb-6">
+          <h2 className="text-3xl font-bold gradient-text-white mb-6">
             Ready to Collaborate?
           </h2>
           <p className="text-lg text-olive-600 mb-8 max-w-2xl mx-auto">

@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -113,7 +114,7 @@ const Projects = () => {
       {/* Projects Content */}
       <main className="max-w-6xl mx-auto px-4 py-16">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-bold gradient-text mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold gradient-text-white mb-6">
             Featured Projects
           </h1>
           <p className="text-xl text-olive-600 max-w-3xl mx-auto leading-relaxed">
@@ -233,32 +234,32 @@ const Projects = () => {
           <Card className="glass-effect text-center">
             <CardContent className="p-6">
               <div className="text-3xl font-bold gradient-text mb-2">20+</div>
-              <p className="text-olive-600">Projects Completed</p>
+              <p className="text-white-600">Projects Completed</p>
             </CardContent>
           </Card>
           <Card className="glass-effect text-center">
             <CardContent className="p-6">
               <div className="text-3xl font-bold gradient-text mb-2">20+</div>
-              <p className="text-olive-600">Happy Clients</p>
+              <p className="text-white-600">Happy Clients</p>
             </CardContent>
           </Card>
           <Card className="glass-effect text-center">
             <CardContent className="p-6">
               <div className="text-3xl font-bold gradient-text mb-2">3+</div>
-              <p className="text-olive-600">Years Experience</p>
+              <p className="text-white-600">Years Experience</p>
             </CardContent>
           </Card>
           <Card className="glass-effect text-center">
             <CardContent className="p-6">
               <div className="text-3xl font-bold gradient-text mb-2">98%</div>
-              <p className="text-olive-600">Client Satisfaction</p>
+              <p className="text-white-600">Client Satisfaction</p>
             </CardContent>
           </Card>
         </div>
 
         {/* CTA Section */}
         <div className="text-center">
-          <h2 className="text-3xl font-bold gradient-text mb-6">
+          <h2 className="text-3xl font-bold gradient-text-white mb-6">
             Like What You See?
           </h2>
           <p className="text-lg text-olive-600 mb-8 max-w-2xl mx-auto">

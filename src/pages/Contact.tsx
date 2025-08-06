@@ -88,7 +88,7 @@ const Contact = () => {
       {/* Contact Content */}
       <main className="max-w-6xl mx-auto px-4 py-16">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-bold gradient-text mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold gradient-text- mb-6">
             Let's Work Together
           </h1>
           <p className="text-xl text-olive-600 max-w-3xl mx-auto leading-relaxed">
@@ -101,7 +101,7 @@ const Contact = () => {
           {/* Contact Form */}
           <Card className="glass-effect">
             <CardContent className="p-8">
-              <h2 className="text-2xl font-bold text-olive-800 mb-6">
+              <h2 className="text-2xl font-bold text-white-800 mb-6">
                 Send Me a Message
               </h2>
 
@@ -199,7 +199,7 @@ const Contact = () => {
           <div className="space-y-6">
             <Card className="glass-effect">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold text-olive-800 mb-6">
+                <h2 className="text-2xl font-bold text-white-800 mb-6">
                   Get In Touch
                 </h2>
 
@@ -242,7 +242,7 @@ const Contact = () => {
 
             <Card className="glass-effect">
               <CardContent className="p-8">
-                <h3 className="text-xl font-bold text-olive-800 mb-4">
+                <h3 className="text-xl font-bold text-white-800 mb-4">
                   Response Time
                 </h3>
                 <p className="text-olive-600 mb-4">
@@ -251,7 +251,7 @@ const Contact = () => {
                   via phone or LinkedIn.
                 </p>
 
-                <h3 className="text-xl font-bold text-olive-800 mb-4">
+                <h3 className="text-xl font-bold text-white-800 mb-4">
                   Project Availability
                 </h3>
                 <p className="text-olive-600">
@@ -265,14 +265,14 @@ const Contact = () => {
 
         {/* FAQ Section */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold gradient-text text-center mb-12">
+          <h2 className="text-3xl font-bold gradient-text-white text-center mb-12">
             Frequently Asked Questions
           </h2>
 
           <div className="grid md:grid-cols-2 gap-6">
             <Card className="glass-effect">
               <CardContent className="p-6">
-                <h3 className="font-semibold text-olive-800 mb-3">
+                <h3 className="font-semibold text-white-800 mb-3">
                   What's your typical project timeline?
                 </h3>
                 <p className="text-olive-600">
@@ -285,7 +285,7 @@ const Contact = () => {
 
             <Card className="glass-effect">
               <CardContent className="p-6">
-                <h3 className="font-semibold text-olive-800 mb-3">
+                <h3 className="font-semibold text-white-800 mb-3">
                   Do you work with startups?
                 </h3>
                 <p className="text-olive-600">
@@ -298,7 +298,7 @@ const Contact = () => {
 
             <Card className="glass-effect">
               <CardContent className="p-6">
-                <h3 className="font-semibold text-olive-800 mb-3">
+                <h3 className="font-semibold text-white-800 mb-3">
                   What's included in your design process?
                 </h3>
                 <p className="text-olive-600">
@@ -311,7 +311,7 @@ const Contact = () => {
 
             <Card className="glass-effect">
               <CardContent className="p-6">
-                <h3 className="font-semibold text-olive-800 mb-3">
+                <h3 className="font-semibold textwhite-olive-800 mb-3">
                   Do you offer ongoing support?
                 </h3>
                 <p className="text-olive-600">
@@ -326,7 +326,7 @@ const Contact = () => {
 
         {/* CTA Section */}
         <div className="text-center">
-          <h2 className="text-3xl font-bold gradient-text mb-6">
+          <h2 className="text-3xl font-bold gradient-text-white mb-6">
             Ready to Start Your Project?
           </h2>
           <p className="text-lg text-olive-600 mb-8 max-w-2xl mx-auto">
