@@ -13,7 +13,7 @@ const Skills = () => {
       title: "UX/UI Design",
       icon: Palette,
       skills: [
-        { name: "User Research", level: 95 },
+        { name: "User Experience (UX) Design", level: 95 },
         { name: "Wireframing", level: 90 },
         { name: "Prototyping", level: 92 },
         { name: "Visual Design", level: 88 },
@@ -35,7 +35,6 @@ const Skills = () => {
       title: "Frontend Development",
       icon: Code,
       skills: [
-        { name: "React & TypeScript", level: 92 },
         { name: "HTML/CSS", level: 95 },
         { name: "JavaScript", level: 88 },
         { name: "Tailwind CSS", level: 70 }
@@ -45,7 +44,6 @@ const Skills = () => {
       title: "Backend & Tools",
       icon: Lightbulb,
       skills: [
-        { name: "Node.js", level: 82 },
         { name: "Python", level: 75 },
         { name: "GitHub", level: 90 },,
         { name: "MySQL", level: 80 },
