@@ -34,7 +34,7 @@ const Index = () => {
 
   const skills = [
     { name: "UX/UI Design", level: 95, icon: Palette },
-    { name: "PWireframing & Prototyping", level: 90, icon: Code },
+    { name: "Wireframing & Prototyping", level: 90, icon: Code },
     { name: "User Research", level: 88, icon: Users },
     { name: "Design Systems", level: 92, icon: Lightbulb },
     { name: "Figma & Adobe XD", level: 95, icon: Award },
