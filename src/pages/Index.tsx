@@ -195,9 +195,8 @@ const Index = () => {
                 </span>
               </p>
               <p className="text-lg text-white max-w-lg leading-relaxed">
-                I craft beautiful, user-centered digital experiences that bridge
-                the gap between design and development. Let's build something
-                amazing together.
+                Designer who codes, I design and build user experiences that drive business results. While most designers hand off static mockups, 
+                I ship functional prototypes and collaborate seamlessly with engineering teams.
               </p>
             </div>
 
