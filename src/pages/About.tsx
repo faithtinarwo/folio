@@ -26,8 +26,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-start lg:items-center mb-20">
           <div className="space-y-6 lg:pr-8">
             <p className="text-lg text-white-700 leading-relaxed">
-              I'm a multidisciplinary designer and developer with 3+ years of experience crafting digital products that balance form and function. 
-              With a background in both design and development, 
+              I'm one of the few designers who can also code, which means I design with technical feasibility in mind and can collaborate seamlessly with engineering teams.  
               I bridge the gap between creativity and code to build user-centered solutions.
             </p>
             <p className="text-lg text-olive-700 leading-relaxed">
