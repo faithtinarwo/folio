@@ -30,11 +30,11 @@ const Index = () => {
   const [activeSection, setActiveSection] = useState("hero");
   const [currentRole, setCurrentRole] = useState(0);
 
-  const roles = ["UX Designer", "Software Developer"];
+  const roles = ["UX Designer", "Product Designer","Software Developer"];
 
   const skills = [
     { name: "UX/UI Design", level: 95, icon: Palette },
-    { name: "Python", level: 90, icon: Code },
+    { name: "PWireframing & Prototyping", level: 90, icon: Code },
     { name: "User Research", level: 88, icon: Users },
     { name: "Design Systems", level: 92, icon: Lightbulb },
     { name: "Figma & Adobe XD", level: 95, icon: Award },
